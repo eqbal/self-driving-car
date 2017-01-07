@@ -28,9 +28,6 @@ class Add(Neuron):
 
 
 
-
-
-
 def topological_sort(feed_dict):
 
   input_neurons = [n for n in feed_dict.keys()]
